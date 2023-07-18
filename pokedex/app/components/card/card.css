@@ -1,0 +1,59 @@
+* {
+    font-size: 10px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+}
+
+.card-padrao {
+    display: flex;
+    flex-direction: row;
+    width: 32.4rem;
+    border-radius: 2.4rem;
+    background-color: rgba(122, 199, 76, 0.1);
+    padding: 2.4rem;
+    justify-content: space-between;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.card-div>h2 {
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    color: #1E293B;
+    width: 12rem;
+}
+
+.card-div>p {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff0000;
+    border-radius: 5rem;
+    width: 5.5rem;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.card-img {
+    width: 12rem;
+    height: 12rem;
+}
+
+#card-estrela {
+    display: flex;
+    color: #1E293B;
+    width: 3.6rem;
+    height: 3.6rem;
+    order: 0;    
+}
+
+.card-padrao>a {
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+    padding-bottom: -2.4rem;
+}
